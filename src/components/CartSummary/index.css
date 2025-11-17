@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 300px;
+  align-self: flex-end;
+  font-family:'roboto' ;
+}
+.cart-summary-heading {
+  color: #616e7c;
+  font-size: 25px;
+  width: 100%;
+  align-items: flex-end;
+  margin-bottom: 0px;
+}
+.cart-summary-span {
+  color: #171f46;
+}
+.description {
+  color: #616e7c;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.check-out-btn{
+  width:100%;
+  height:50px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border:none;
+  cursor:pointer;
+  outline:none;
+  border-radius: 5px;
+}
